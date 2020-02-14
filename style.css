@@ -99,3 +99,44 @@ btn:hover {
 .showcase .btn{
     margin-top: 20px;
 }
+
+/* home cards */
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.home-cards img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards h3{
+    margin-bottom: 5px;
+}
+
+.home-cards a span,
+.home-cards a i{
+    display: inline-block;
+    padding-top: 10px;
+    color: #005DA6;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all .2s ease-in-out;
+}
+
+.home-cards a i{
+    margin-left: 10px;
+}
+
+.home-cards a span:hover {
+    transition: all .2s ease-in;
+    border-bottom: 2px solid #005DA6;
+}
+
+.home-cards a:hover i{
+    margin-left: 15px;
+    transition: all .2s ease-in-out;
+}
