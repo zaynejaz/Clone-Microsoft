@@ -233,7 +233,7 @@ ul{
 }
 
 
-/* ===========LEARN MORE=========== */
+/* ===========FOLLOW=========== */
 
 .follow{
     display: flex;
@@ -334,3 +334,38 @@ ul{
 }
 
 
+@media (max-width: 700px){
+    .home-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .moreWin .content p{
+        display: none;
+    }
+    .moreWin .content h2{
+        margin-bottom: 20px;
+    }
+
+    .learnMore .content{
+        width: 85%;
+    }
+
+    .site-links-inner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px){
+    .home-cards{
+        grid-template-columns:  1fr;
+    }
+
+    .site-links-inner{
+        grid-template-columns: 1fr;
+
+    }
+
+    .site-links-inner ul{
+        margin-bottom: 20px;
+    }
+}
