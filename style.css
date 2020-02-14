@@ -66,15 +66,34 @@ ul{
     display: inline-block;
     border: 0;
     font-weight: bold;
-    padding: 10px 20pc;
+    padding: 10px 20px;
     background: #262626;
     color: #fff;
     font-size: 15px;
 }
 
-btn:hover {
-    opacity: .9;
+.btn span,
+.btn i {
+    border-bottom: 2px solid transparent;
+    transition: all .2s ease-in-out;
 }
+
+.btn i{
+    margin-left: 10px;
+}
+
+.btn:hover span {
+    transition: all .2s ease-in;
+    border-bottom: 2px solid #fff;
+}
+
+.btn:hover i {
+    margin-left: 15px;
+    transition: all .2s ease-in-out;
+}
+
+
+
 
 
 /* ===========SHOWCASE=========== */
@@ -105,6 +124,7 @@ btn:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    margin-bottom: 40px;
 }
 
 .home-cards img{
@@ -136,7 +156,25 @@ btn:hover {
     border-bottom: 2px solid #005DA6;
 }
 
-.home-cards a:hover i{
+.home-cards a:hover i {
     margin-left: 15px;
     transition: all .2s ease-in-out;
+}
+
+
+/* ===========MORE WITH WINDOWS=========== */
+
+.moreWin{
+    width: 100%;
+    height: 400px;
+    background: url(/assets/dell-laptop.jpg) no-repeat center center/cover;
+}
+
+.moreWin .content{
+    width: 40%;
+    padding: 130px 0 0 70px;
+}
+
+.moreWin p{
+    margin: 10px 0 20px ;
 }
