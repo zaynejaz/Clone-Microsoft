@@ -235,3 +235,40 @@ ul{
 
 /* ===========LEARN MORE=========== */
 
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+}
+
+.follow p{
+    font-weight: lighter;
+    color: #747474;
+}
+
+.follow *{
+    margin-right: 10px;
+}
+
+.follow a{
+    text-decoration: none;
+}
+
+.follow a i {
+    font-size: 32px;
+}
+
+.fa-facebook-square{
+    color: #3b5998;
+}
+.fa-twitter-square{
+    color: #00acee;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+
+.follow a:hover {
+    filter: grayscale(50%);
+}
