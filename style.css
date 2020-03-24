@@ -101,10 +101,6 @@ ul{
     transition: all .2s ease-in-out;
 }
 
-
-
-
-
 /* ===========SHOWCASE=========== */
 .showcase {
     width: 100%;
@@ -305,6 +301,17 @@ ul{
     line-height: 2.8;
 }
 
+
+.site-nav a{
+    color: #6c6c6c;
+    font-size: 11px;
+}
+
+.site-nav a:hover{
+    color: #262626;
+    text-decoration: underline;
+}
+
 /* ===========FOOTER=========== */
 .footer{
     background: #f2f2f2;
@@ -342,6 +349,20 @@ ul{
     margin-bottom: 20px;
 }
 
+.footer a{
+    color: #6c6c6c;
+    font-size: 11px;
+}
+
+.footer a:hover{
+    color: #262626;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 860px){
+/* adj menu */
+}
 
 @media (max-width: 700px){
     .menu-btn{
