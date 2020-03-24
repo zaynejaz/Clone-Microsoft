@@ -310,6 +310,12 @@ ul{
     justify-content: center;
 }
 
+.site-links-inner h3{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
 .site-nav li{
     line-height: 2.8;
 }
