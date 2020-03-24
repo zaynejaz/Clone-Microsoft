@@ -128,7 +128,7 @@ ul{
     margin-bottom: 10px;
 }
 
-.showcase .btn{
+.showcase .button{
     margin-top: 20px;
 }
 
@@ -214,7 +214,7 @@ ul{
     margin: 10px 0 20px ;
 }
 
-.btn2{
+.button-secondary{
     cursor: pointer;
     display: inline-block;
     border: 0;
@@ -225,22 +225,27 @@ ul{
     font-size: 15px;
 }
 
-.btn2 span,
-.btn2 i {
+.button-secondary {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.button-secondary span,
+.button-secondary i {
     border-bottom: 2px solid transparent;
     transition: all .2s ease-in-out;
 }
 
-.btn2 i{
+.button-secondary i{
     margin-left: 10px;
 }
 
-.btn2:hover span {
+.button-secondary:hover span {
     transition: all .2s ease-in;
     border-bottom: 2px solid #000;
 }
 
-.btn2:hover i {
+.button-secondary:hover i {
     margin-left: 15px;
     transition: all .2s ease-in-out;
 }
