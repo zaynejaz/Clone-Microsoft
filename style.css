@@ -50,38 +50,63 @@ ul{
 }
 
 /* ===========NAVBAR=========== */
-.main-nav{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
-    padding: 20px 0;
+    height: 50px;
+    padding: 5px 0 5px 0;
     font-size: 13px;
 }
 
-.main-nav .logo{
+.navbar-brand{
+    margin: 0;
+}
+
+.navbar-brand .logo{
     width: 110px;
 }
 
-.main-nav ul{
+.navbar ul{
     display: flex;
 }
 
-.main-nav ul li{
-    padding: 0 10px;
+.navbar ul li{
+    padding: 8px 8px 0 8px;
 }
 
-.main-nav ul li a{
+.navbar .nav-link{
+    padding: 0px 0px !important;
+}
+
+.navbar ul li a{
+    color: #262626 !important;
     padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
 }
 
-.main-nav ul li a:hover{
+.navbar ul li a:hover{
  border-bottom: 2px solid #262626;
 }
-.main-nav ul.main-menu{
+.navbar ul.main-menu{
     flex: 1;
     margin-left: 20px;
 }
+
+.nav-icons{
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.nav-icons a{
+    padding: 0 5px;
+}
+
+.navbar .nav-icons li a:hover{
+    border-bottom: 2px solid transparent !important;
+   }
+
 
 .menu-btn{
     cursor: pointer;
@@ -425,11 +450,11 @@ ul{
         opacity: .5;
     }
 
-    .main-nav ul.right-menu{
+    .navbar ul.right-menu{
         margin-right: 50px;
     }
 
-    .main-nav ul.main-menu{
+    .navbar ul.main-menu{
         display: block;
         position: absolute;
         top: 0;
@@ -444,17 +469,17 @@ ul{
         transition: transform .5s ease-in-out;
     }
 
-    .main-nav ul.main-menu.show{
+    .navbar ul.main-menu.show{
         transform: translateX(-20px);
     }
 
-    .main-nav ul.main-menu.show li{
+    .navbar ul.main-menu.show li{
         padding: 10px;
         border-bottom: 1px solid #ccc;
         font-size: 14px;
     }
 
-    .main-nav ul.main-menu.show li:last-child{
+    .navbar ul.main-menu.show li:last-child{
         border-bottom: 0;
     }
 
