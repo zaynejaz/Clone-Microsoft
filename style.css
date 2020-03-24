@@ -70,7 +70,7 @@ ul{
     display: none;
 }
 
-.btn{
+.button{
     cursor: pointer;
     display: inline-block;
     border: 0;
@@ -81,25 +81,33 @@ ul{
     font-size: 15px;
 }
 
-.btn span,
-.btn i {
+.button:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.button span,
+.button i {
     border-bottom: 2px solid transparent;
     transition: all .2s ease-in-out;
 }
 
-.btn i{
+.button i{
     margin-left: 10px;
 }
 
-.btn:hover span {
+.button:hover span {
     transition: all .2s ease-in;
     border-bottom: 2px solid #fff;
+    
 }
 
-.btn:hover i {
+.button:hover i {
     margin-left: 15px;
     transition: all .2s ease-in-out;
+    
 }
+
 
 /* ===========SHOWCASE=========== */
 .showcase {
