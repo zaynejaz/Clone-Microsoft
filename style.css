@@ -250,6 +250,17 @@ ul{
     margin-top: 20px;
 }
 
+.carousel-indicators{    
+    bottom: -10px !important;
+}
+
+.carousel-indicators li{
+    background-color: #262626 !important;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+}
+
 /* home cards */
 .home-cards{
     display: grid;
@@ -260,6 +271,11 @@ ul{
 
 .home-cards .card-link:hover img{
     opacity: .9;
+}
+
+a.card-link{
+    text-decoration: none;
+    color: #000000;
 }
 
 .home-cards img{
