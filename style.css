@@ -178,6 +178,19 @@ ul{
 }
 
 /* ===========SHOWCASE=========== */
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.fadeInRight{
+    animation-duration: .75s;
+}
+
 .showcase {
     width: 100%;
     height: 400px;
