@@ -258,6 +258,10 @@ ul{
     margin-bottom: 40px;
 }
 
+.home-cards .card-link:hover img{
+    opacity: .9;
+}
+
 .home-cards img{
     width: 100%;
     margin-bottom: 20px;
@@ -320,7 +324,6 @@ ul{
 
 #carouselSlider2 .caption-wrapper{
     position: relative;
-    border: 1px solid red;
 }
 
 #carouselSlider2 .carousel-caption{
