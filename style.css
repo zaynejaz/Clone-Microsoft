@@ -250,15 +250,29 @@ ul{
     margin-top: 20px;
 }
 
-.carousel-indicators{    
-    bottom: -10px !important;
-}
 
-.carousel-indicators li{
-    background-color: #262626 !important;
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+  
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    float: left;
+    width: 5px;
+    height: 5px;
+    margin: 20px 5px;
     border-radius: 50%;
-    width: 10px !important;
-    height: 10px !important;
+    border: 1px solid #262626;
+    background: transparent;
+}
+  
+ol.carousel-indicators li.active {
+    background: #262626;
 }
 
 /* home cards */
