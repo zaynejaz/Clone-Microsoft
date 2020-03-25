@@ -13,17 +13,17 @@ body{
 }
 
 h1,h2,h3,h4{
-    font-weight: 600;
-    opacity: .9;
+    font-weight: 600 !important;
+    opacity: .9 !important;
 }
 
 h1{
-    font-size: 46px;
-    line-height: 56px;
+    font-size: 30px !important;
+    line-height: 40px !important;
 }
 h2{
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 36px;
 }
 h3{
     font-size: 20px;
@@ -145,15 +145,37 @@ ul{
 .button:hover span {
     transition: all .2s ease-in;
     border-bottom: 2px solid #fff;
-    
 }
 
 .button:hover i {
     margin-left: 15px;
     transition: all .2s ease-in-out;
-    
 }
 
+.btn-clear{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: transparent;
+    color: #262626;
+    font-size: 15px;
+}
+
+.btn-clear:hover {
+    color: #262626 !important;
+    text-decoration: none !important;
+}
+
+.btn-clear:hover span {
+    transition: all .2s ease-in;
+    border-bottom: 2px solid #262626;
+}
+
+.carousel-caption{
+    color: #000000;
+}
 
 /* ===========SHOWCASE=========== */
 .showcase {
