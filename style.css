@@ -1,4 +1,4 @@
-*{
+*, body, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,7 +45,8 @@ ul{
 
 .container{
     width: 100%;
-    max-width: 1100px
+    max-width: 1100px;
+    padding: 0;
 }
 
 
@@ -296,7 +297,7 @@ ol.carousel-indicators li.active {
     left: 50px;
 }
 
-/* +++++++++++++++++++++ */
+
 /* =========================PRODUCT CARDS========================= */
 .prod-cards{
     display: grid;
@@ -355,6 +356,7 @@ a.card-link{
     width: 100%;
     height: 400px;
     background: url(assets/rowFULL-dell-laptop.jpg) no-repeat center center/cover;
+    margin: 0 auto;
     padding-bottom: 50px;
     margin-bottom: 20px;
 }
@@ -422,7 +424,7 @@ a.card-link{
     background: #f2f2f2;
     color: #626262;
     font-size: 12px;
-    padding: 35px 20px;
+    padding: 35px 25px;
     max-width: 1100px !important;
     margin: 0 auto;
 }
@@ -519,12 +521,42 @@ a.card-link{
 
 
 /* =========================MEDIA QUERIES========================= */
+@media (min-width: 1083px){
+    #carouselSlider1,
+    #carouselSlider2,
+    .main-nav, .prod-cards, .static-win, .follow, .site-nav{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .static-win{
+        max-width: 1050px;
+    }
+}
+
+@media (max-width: 1168px){
+    #carouselSlider1 .office-btn{
+        display: grid;
+        grid-template-rows: 2;
+        width: 225px;
+        margin: auto
+    }
+}
+
+
 @media (max-width: 1083px){
     .prod-cards{
         grid-template-columns: repeat(2, 1fr);
     }
     .site-nav .site-links-inner{
         grid-template-columns: repeat(3, 1fr);
+    }
+    #carouselSlider1,
+    #carouselSlider2{
+        width: 100%;
+    }
+    .main-nav, .prod-cards, .static-win, .follow, .site-nav{
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 
