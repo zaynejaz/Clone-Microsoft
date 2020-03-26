@@ -45,7 +45,9 @@ ul{
 
 .container{
     width: 100%;
+    max-width: 1100px
 }
+
 
 /* =========================NAVBAR========================= */
 .navbar{
@@ -407,12 +409,22 @@ a.card-link{
     filter: grayscale(50%);
 }
 
-/* ===========SITE LINKS=========== */
+
+.container-2{
+    width: 100%;
+    background: #f2f2f2;
+    
+}
+
+/* =========================SITE LINKS========================= */
 .site-nav{
+    /* position: relative; */
     background: #f2f2f2;
     color: #626262;
     font-size: 12px;
-    padding: 35px 0;
+    padding: 35px 20px;
+    max-width: 1100px !important;
+    margin: 0 auto;
 }
 
 .site-nav .site-links-inner{
@@ -441,7 +453,8 @@ a.card-link{
     text-decoration: underline;
 }
 
-/* ===========FOOTER=========== */
+
+/* =========================FOOTER========================= */
 .footer{
     background: #f2f2f2;
     color: #6c6c6c;
@@ -505,6 +518,16 @@ a.card-link{
 }
 
 
+/* =========================MEDIA QUERIES========================= */
+@media (max-width: 1083px){
+    .prod-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .site-nav .site-links-inner{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 860px){
 /* adj menu */
 }
@@ -543,21 +566,12 @@ a.card-link{
         border-bottom: 0;
     }
 
-
-    .prod-cards{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .static-win .content p{
         display: none;
     }
     .static-win .content h2{
         margin-bottom: 20px;
     }
-
-    /* .learnMore .content{ chnage to slider
-        width: 85%;
-    } */
 
     .site-nav .site-links-inner{
         grid-template-columns: repeat(2, 1fr);
@@ -571,7 +585,6 @@ a.card-link{
 
     .site-nav .site-links-inner{
         grid-template-columns: 1fr;
-
     }
 
     .site-nav .site-links-inner ul{
