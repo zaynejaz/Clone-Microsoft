@@ -674,9 +674,16 @@ a.card-link{
     .dropdown-menu .dropdown-item{
         border-bottom: 1px solid #d4d4d4;
     }
-
 }
 
+@media (max-width: 540px){
+    .prod-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .site-nav .site-links-inner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 @media (max-width: 500px){
     .prod-cards{
