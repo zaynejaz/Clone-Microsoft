@@ -521,6 +521,15 @@ a.card-link{
 
 
 /* =========================MEDIA QUERIES========================= */
+@media (max-width: 1168px){
+    #carouselSlider1 .office-btn{
+        display: grid;
+        grid-template-rows: 2;
+        width: 225px;
+        margin: auto
+    }
+}
+
 @media (min-width: 1083px){
     #carouselSlider1,
     #carouselSlider2,
@@ -530,15 +539,6 @@ a.card-link{
     }
     .static-win{
         max-width: 1050px;
-    }
-}
-
-@media (max-width: 1168px){
-    #carouselSlider1 .office-btn{
-        display: grid;
-        grid-template-rows: 2;
-        width: 225px;
-        margin: auto
     }
 }
 
@@ -559,7 +559,26 @@ a.card-link{
     }
 }
 
-@media (min-width: 861px){
+@media (max-width: 992px){
+    #carouselSlider2 .carousel-caption{
+        margin: auto 0;
+    } 
+    #carouselSlider2 h2{
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 815px) and (min-width: 768px) {
+    .navbar-brand .logo{
+        width: 100px;
+    }
+    .navbar ul li{
+        padding: 8px 6px 0 6px;
+    } 
+}
+
+
+@media (min-width: 768px){
     .nav-icons-2{
         display: none !important;
     }
@@ -568,17 +587,27 @@ a.card-link{
     }
 }
 
-@media (max-width: 992px){
-    #carouselSlider2 .carousel-caption{
-        margin: auto 0;
-    } 
-
-    #carouselSlider2 h2{
-        padding-bottom: 15px;
+@media (max-width: 786px){
+    .static-win .content{
+        width: 50%;
+        padding: 100px 0 0 25px;
+    }
+    
+    .static-win p{
+        margin: 10px 0 10px ;
     }
 }
 
-@media (max-width: 860px){
+@media (max-width: 625px){
+    .static-win h2{
+        padding-bottom: 25px;
+    }
+    .static-win p{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
     .navbar{
         padding: 0px;
         line-height: 0px;
@@ -599,7 +628,7 @@ a.card-link{
         position: absolute;
         left: 60px;
     }
-
+    
 /* HAMBURGER MENU */
     .navbar-toggler{
         position: absolute;
@@ -686,25 +715,6 @@ a.card-link{
     }
 }
 
-@media (max-width: 786px){
-    .static-win .content{
-        width: 50%;
-        padding: 100px 0 0 25px;
-    }
-    
-    .static-win p{
-        margin: 10px 0 10px ;
-    }
-}
-
-@media (max-width: 625px){
-    .static-win h2{
-        padding-bottom: 25px;
-    }
-    .static-win p{
-        display: none;
-    }
-}
 
 @media (max-width: 600px){
     #carouselSlider1 .carousel-caption,
