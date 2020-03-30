@@ -568,6 +568,16 @@ a.card-link{
     }
 }
 
+@media (max-width: 992px){
+    #carouselSlider2 .carousel-caption{
+        margin: auto 0;
+    } 
+
+    #carouselSlider2 h2{
+        padding-bottom: 15px;
+    }
+}
+
 @media (max-width: 860px){
     .navbar{
         padding: 0px;
