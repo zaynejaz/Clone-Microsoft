@@ -745,6 +745,13 @@ a.card-link{
     }
 }
 
+
+@media (max-width: 475px){
+    #carouselSlider2 .carousel-caption{
+        padding-top: 0px;
+    }
+}
+
 @media (max-width: 460px){
     .static-win .content{
         text-align: center;
