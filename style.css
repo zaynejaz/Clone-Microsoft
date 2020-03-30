@@ -687,6 +687,14 @@ a.card-link{
     }
 }
 
+@media (max-width: 625px){
+    .static-win h2{
+        padding-bottom: 25px;
+    }
+    .static-win p{
+        display: none;
+    }
+}
 
 @media (max-width: 600px){
     #carouselSlider1 .carousel-caption,
@@ -695,7 +703,7 @@ a.card-link{
     }
     #carouselSlider2 .carousel-caption {
         width: 50%;
-}
+    }
 }
 
 @media (max-width: 540px){
@@ -706,6 +714,8 @@ a.card-link{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+
 
 @media (max-width: 500px){
     .prod-cards{
