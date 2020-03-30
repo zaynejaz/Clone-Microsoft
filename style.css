@@ -676,6 +676,18 @@ a.card-link{
     }
 }
 
+@media (max-width: 786px){
+    .static-win .content{
+        width: 50%;
+        padding: 100px 0 0 25px;
+    }
+    
+    .static-win p{
+        margin: 10px 0 10px ;
+    }
+}
+
+
 @media (max-width: 600px){
     #carouselSlider1 .carousel-caption,
     #carouselSlider2 .carousel-caption a{
@@ -684,7 +696,7 @@ a.card-link{
     #carouselSlider2 .carousel-caption {
         width: 50%;
 }
-
+}
 
 @media (max-width: 540px){
     .prod-cards{
