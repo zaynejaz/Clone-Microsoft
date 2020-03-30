@@ -715,7 +715,11 @@ a.card-link{
     }
 }
 
-
+@media (max-width: 540px){
+    .static-win .content{
+        width: 100%;
+    }
+}
 
 @media (max-width: 500px){
     .prod-cards{
@@ -728,5 +732,11 @@ a.card-link{
 
     .site-nav .site-links-inner ul{
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 460px){
+    .static-win .content{
+        text-align: center;
     }
 }
