@@ -648,7 +648,7 @@ a.card-link{
         width: 100%;
         height: 1px;
         background: #262626;
-        transition: all cubic-bezier(.26, .1, .27, 1.55) .25s;
+        transition: all .25s;
         border-radius: 0px;
     }
     .top{
@@ -664,9 +664,12 @@ a.card-link{
         top: 50%;
         transform: rotate(45deg);
     }
-    .icon.close .mid, 
+    .icon.close .mid{
+       opacity: 0;
+    }
+    
     .icon.close .low{
-        top:50%;
+        top: 50%;
         transform: rotate(-45deg);
     } 
 
